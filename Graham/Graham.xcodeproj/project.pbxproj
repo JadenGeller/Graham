@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DBB3E651BDEECD900A821A1 /* Graham.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBB3E641BDEECD900A821A1 /* Graham.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DBB3E6C1BDEECD900A821A1 /* Graham.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBB3E611BDEECD900A821A1 /* Graham.framework */; };
-		4DBB3E711BDEECD900A821A1 /* GrahamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E701BDEECD900A821A1 /* GrahamTests.swift */; };
+		4DBB3E711BDEECD900A821A1 /* DigitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E701BDEECD900A821A1 /* DigitTests.swift */; };
+		4DBB3E7C1BDEED9000A821A1 /* FullZip2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E7B1BDEED9000A821A1 /* FullZip2.swift */; };
+		4DBB3E7E1BDEEF8E00A821A1 /* Concatenate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E7D1BDEEF8E00A821A1 /* Concatenate.swift */; };
+		4DBB3E811BDEF00F00A821A1 /* Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E801BDEF00F00A821A1 /* Digit.swift */; };
+		4DBB3E831BDEF06500A821A1 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E821BDEF06500A821A1 /* Base.swift */; };
+		4DBB3E851BDEF27D00A821A1 /* TypeMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E841BDEF27D00A821A1 /* TypeMap.swift */; };
+		4DBB3E881BDF05B800A821A1 /* Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E871BDF05B800A821A1 /* Integer.swift */; };
+		4DBB3E8A1BDF06CD00A821A1 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E891BDF06CD00A821A1 /* Sign.swift */; };
+		4DBB3E8C1BDF16C800A821A1 /* Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E8B1BDF16C800A821A1 /* Compare.swift */; };
+		4DBB3E8E1BDF211B00A821A1 /* IntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E8D1BDF211B00A821A1 /* IntegerTests.swift */; };
+		4DBB3E901BDF21E800A821A1 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB3E8F1BDF21E800A821A1 /* Drop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +33,20 @@
 
 /* Begin PBXFileReference section */
 		4DBB3E611BDEECD900A821A1 /* Graham.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Graham.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DBB3E641BDEECD900A821A1 /* Graham.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graham.h; sourceTree = "<group>"; };
 		4DBB3E661BDEECD900A821A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DBB3E6B1BDEECD900A821A1 /* GrahamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrahamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DBB3E701BDEECD900A821A1 /* GrahamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrahamTests.swift; sourceTree = "<group>"; };
+		4DBB3E701BDEECD900A821A1 /* DigitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitTests.swift; sourceTree = "<group>"; };
 		4DBB3E721BDEECD900A821A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBB3E7B1BDEED9000A821A1 /* FullZip2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullZip2.swift; path = ../FullZip2.swift; sourceTree = "<group>"; };
+		4DBB3E7D1BDEEF8E00A821A1 /* Concatenate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Concatenate.swift; sourceTree = "<group>"; };
+		4DBB3E801BDEF00F00A821A1 /* Digit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digit.swift; sourceTree = "<group>"; };
+		4DBB3E821BDEF06500A821A1 /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		4DBB3E841BDEF27D00A821A1 /* TypeMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeMap.swift; sourceTree = "<group>"; };
+		4DBB3E871BDF05B800A821A1 /* Integer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Integer.swift; sourceTree = "<group>"; };
+		4DBB3E891BDF06CD00A821A1 /* Sign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		4DBB3E8B1BDF16C800A821A1 /* Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compare.swift; sourceTree = "<group>"; };
+		4DBB3E8D1BDF211B00A821A1 /* IntegerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerTests.swift; sourceTree = "<group>"; };
+		4DBB3E8F1BDF21E800A821A1 /* Drop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drop.swift; path = ../Graham/Drop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +89,11 @@
 		4DBB3E631BDEECD900A821A1 /* Graham */ = {
 			isa = PBXGroup;
 			children = (
-				4DBB3E641BDEECD900A821A1 /* Graham.h */,
+				4DBB3E821BDEF06500A821A1 /* Base.swift */,
+				4DBB3E801BDEF00F00A821A1 /* Digit.swift */,
+				4DBB3E891BDF06CD00A821A1 /* Sign.swift */,
+				4DBB3E871BDF05B800A821A1 /* Integer.swift */,
+				4DBB3E861BDEF28400A821A1 /* Helpers */,
 				4DBB3E661BDEECD900A821A1 /* Info.plist */,
 			);
 			path = Graham;
@@ -80,10 +102,31 @@
 		4DBB3E6F1BDEECD900A821A1 /* GrahamTests */ = {
 			isa = PBXGroup;
 			children = (
-				4DBB3E701BDEECD900A821A1 /* GrahamTests.swift */,
+				4DBB3E8F1BDF21E800A821A1 /* Drop.swift */,
+				4DBB3E701BDEECD900A821A1 /* DigitTests.swift */,
+				4DBB3E8D1BDF211B00A821A1 /* IntegerTests.swift */,
 				4DBB3E721BDEECD900A821A1 /* Info.plist */,
 			);
 			path = GrahamTests;
+			sourceTree = "<group>";
+		};
+		4DBB3E7F1BDEEF9200A821A1 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB3E7B1BDEED9000A821A1 /* FullZip2.swift */,
+				4DBB3E7D1BDEEF8E00A821A1 /* Concatenate.swift */,
+			);
+			name = Generators;
+			sourceTree = "<group>";
+		};
+		4DBB3E861BDEF28400A821A1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB3E841BDEF27D00A821A1 /* TypeMap.swift */,
+				4DBB3E8B1BDF16C800A821A1 /* Compare.swift */,
+				4DBB3E7F1BDEEF9200A821A1 /* Generators */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +136,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DBB3E651BDEECD900A821A1 /* Graham.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBB3E881BDF05B800A821A1 /* Integer.swift in Sources */,
+				4DBB3E851BDEF27D00A821A1 /* TypeMap.swift in Sources */,
+				4DBB3E8A1BDF06CD00A821A1 /* Sign.swift in Sources */,
+				4DBB3E831BDEF06500A821A1 /* Base.swift in Sources */,
+				4DBB3E7C1BDEED9000A821A1 /* FullZip2.swift in Sources */,
+				4DBB3E901BDF21E800A821A1 /* Drop.swift in Sources */,
+				4DBB3E7E1BDEEF8E00A821A1 /* Concatenate.swift in Sources */,
+				4DBB3E811BDEF00F00A821A1 /* Digit.swift in Sources */,
+				4DBB3E8C1BDF16C800A821A1 /* Compare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DBB3E711BDEECD900A821A1 /* GrahamTests.swift in Sources */,
+				4DBB3E8E1BDF211B00A821A1 /* IntegerTests.swift in Sources */,
+				4DBB3E711BDEECD900A821A1 /* DigitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +357,7 @@
 		4DBB3E761BDEECD900A821A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -317,12 +370,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.JadenGeller.Graham;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4DBB3E771BDEECD900A821A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
