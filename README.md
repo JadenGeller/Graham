@@ -12,3 +12,14 @@ for i in 0...x {
    // Such loop. Very wow.
 }
 ```
+Unlike an `Int` though, `BigInt` does not overflow!
+```swift
+let y: BigInt = 9999999 * 9999999 * 9999999 * 9999999 * 9999999 * 9999999
+print(y) // -> 
+```
+It can be used to represent HUGE computations, which is pretty cool.
+
+If you want to declare a `BigInt` literal that's bigger than the biggest `Int` value, use a string literal.
+```swift
+let z: BigInt = "1234567898765432123456789876543212345678987654321"
+```
