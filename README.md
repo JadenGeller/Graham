@@ -1,3 +1,6 @@
+Note that this library is *under construction*. Multiplication and division coming soon. Use this outdated version if you just cant wait:
+https://gist.github.com/JadenGeller/f469776b12fed2d84d6c
+
 # Graham
 
 Graham is a library for representing arbitrarily large integers in Swift.
