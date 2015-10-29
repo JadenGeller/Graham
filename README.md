@@ -30,8 +30,8 @@ typealias BigInt = Integer<Decimal>
 ```
 That's right, you can represent integers of any whole number base with Graham! Graham comes built in with support for `Decimal`, `Binary`, and `Hexadecimal`, but it's really easy to add more! We'll make a new base `Monkey` that has three symbols—🙈, 🙉, and 🙊.
 ```swift
-public struct Monkey: Base {
-    public static let symbols: SymbolSet = "🙈🙉🙊"
+struct Monkey: Base {
+   static let symbols: SymbolSet = "🙈🙉🙊"
 }
 ```
 Ta-da! Really simple, right!? Obviously you probably won't want to make such bizzare numbers, but you could imagine how easy it is to create a octal base or something of that sort.
