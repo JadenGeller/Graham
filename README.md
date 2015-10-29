@@ -15,7 +15,7 @@ for i in 0...x {
 Unlike an `Int` though, `BigInt` does not overflow!
 ```swift
 let y: BigInt = 9999999 * 9999999 * 9999999 * 9999999 * 9999999 * 9999999
-print(y) // -> 
+print(y) // -> TO DO
 ```
 It can be used to represent HUGE computations, which is pretty cool.
 
@@ -28,7 +28,13 @@ Now, let me let you in a secret: `BigInt` is just a typealias. That's right.
 ```swift
 typealias BigInt = Integer<Decimal>
 ```
-That's right, you can represent integers of any whole number base with Graham! Graham comes built in with support for `Decimal`, `Binary`, and `Hexadecimal`, but it's really easy to add more! We'll make a new base `Monkey` that has three symbols—🙈, 🙉, and 🙊.
+That's right, you can represent integers of any whole number base with Graham!
+```swift
+let a: Integer<Hexadecimal> = "ABC" + "123"
+print(a) // -> BDF
+```
+
+Graham comes built in with support for `Decimal`, `Binary`, and `Hexadecimal`, but it's really easy to add more! We'll make a new base `Monkey` that has three symbols—🙈, 🙉, and 🙊.
 ```swift
 struct Monkey: Base {
    static let symbols: SymbolSet = "🙈🙉🙊"
